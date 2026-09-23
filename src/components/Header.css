@@ -1,0 +1,10 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #1e293b;
+  color: #fff;
+}
+.logo { margin: 0; }
+.nav-link { color: #93c5fd; text-decoration: none; font-weight: 600; }
