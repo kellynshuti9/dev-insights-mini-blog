@@ -1,0 +1,20 @@
+.post-card {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background: #f9f9f9;
+  transition: background 0.3s ease;
+}
+
+.post-card.highlighted {
+  background: #ffe9e9;  /* conditional styling */
+}
+
+.new-badge {
+  background: #28a745;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+}
