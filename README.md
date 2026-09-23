@@ -192,3 +192,7 @@ This project was built incrementally with meaningful commits:
 
 ---
 
+## 🪞 Reflection
+In this project, I created a small blog with React + TypeScript using Vite, and learned that with Vite, the dev server is a lot faster than the old bundlers due to native ES modules. The most useful thing that I got from this was seeing how to use `React.memo` in practice: watching the console stop logging as a parent re-render when I used it, felt better than it looked in theory. I also had the opportunity to write a higher order component (HOC) by hand, which helped me better understand how the HOCs wrap components and how the `cleanup` function works in `useEffect`, which is the equivalent of `componentWillUnmount`.
+
+The hardest thing about the project was deciding to lay out the project structure before writing any components: to know where to put your `types/`, `utils/`, or `components/`. I solved this by meticulously laying out the folder structure, so that the all subsequent components were a breeze to drop in. For the future, I want to learn about CSS-in-JS libraries such as styled-components, unit testing with Vitest, and creating global state with React Context.
