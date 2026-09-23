@@ -190,5 +190,5 @@ This project was built incrementally with meaningful commits:
 
 `node_modules` is excluded via `.gitignore` and is not tracked.
 
-
+---
 
